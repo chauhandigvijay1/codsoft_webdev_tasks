@@ -27,21 +27,21 @@ The tasks are focused on building beginner-friendly yet practical projects using
 ### 🔸 Task 1: Personal Portfolio
 - Created a personal portfolio website using **HTML & CSS**.  
 - Includes sections: Header, About, Skills, Projects, Resume, Contact, Footer.
-- [Live Link]() 
+- [Live Link](https://codsoft-portfolio-dsc.netlify.app/) 
 
 ---
 
 ### 🔸 Task 2: Landing Page
 - Designed a creative and responsive landing page using **HTML & CSS**.  
 - Focused on layouts, sections, alignment, and color palette.
-- [Live Link]() 
+- [Live Link](https://codsoft-landing-page-dsc.netlify.app/) 
 
 ---
 
 ### 🔸 Task 3: Basic Calculator
 - Built a simple calculator using **HTML, CSS, and JavaScript**.  
 - Supports basic arithmetic operations: Addition, Subtraction, Multiplication, Division.
-- [Live Link]()    
+- [Live Link](https://codsoft-calculator-dsc.netlify.app/)    
 
 ---
 
