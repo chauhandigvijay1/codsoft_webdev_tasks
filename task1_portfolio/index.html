@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digvijay Kumar Singh | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav">
+      <h1 class="logo">Digvijay Singh</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hi, I'm <span id="typed"></span></h2>
+      <p>A passionate Full Stack Web Developer who loves building modern and user-friendly applications.</p>
+      <div class="social-links">
+        <a href="https://github.com/chauhandigvijay1" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/digvijaykumarsingh/" target="_blank">LinkedIn</a>
+      </div>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container about">
+      <img src="assets/profile.jpeg" alt="Digvijay Profile" class="profile-pic">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I'm Digvijay Kumar Singh, a developer who enjoys turning ideas into reality with clean and efficient code.
+          I have experience in frontend and backend technologies like React, Node.js, Express, and MongoDB.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-bar"><p>HTML</p><div class="bar"><span style="width:90%"></span></div></div>
+        <div class="skill-bar"><p>CSS</p><div class="bar"><span style="width:85%"></span></div></div>
+        <div class="skill-bar"><p>JavaScript</p><div class="bar"><span style="width:80%"></span></div></div>
+        <div class="skill-bar"><p>React</p><div class="bar"><span style="width:75%"></span></div></div>
+        <div class="skill-bar"><p>Node.js</p><div class="bar"><span style="width:70%"></span></div></div>
+        <div class="skill-bar"><p>Express</p><div class="bar"><span style="width:70%"></span></div></div>
+        <div class="skill-bar"><p>MongoDB</p><div class="bar"><span style="width:65%"></span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Responsive personal portfolio built with HTML, CSS, and JS.</p>
+          <a href="https://dsc-portfolio-website.netlify.app/" target="_blank">Live</a> | 
+          <a href="https://github.com/chauhandigvijay1/portfolio" target="_blank">Code</a>
+        </div>
+        <div class="project-card">
+          <h3>Landing Page</h3>
+          <p>A creative landing page showcasing layout and design skills.</p>
+          <a href="#">Live</a> | <a href="#">Code</a>
+        </div>
+        <div class="project-card">
+          <h3>Calculator App</h3>
+          <p>Simple calculator with basic operations using JavaScript.</p>
+          <a href="#">Live</a> | <a href="#">Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="assets/d1_compressed.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Digvijay Kumar Singh. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
